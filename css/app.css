@@ -308,8 +308,8 @@ a:hover {
     margin-top: -65px;
   }
   header {
-    background-image: url(../assets/images/mac3.jpg);
-    background-position: center;
+    background-image: url(../assets/images/rose.png);
+    /*background-position: center;*/
     /*background-size: cover;
     display: flex;
     flex-direction: column;
