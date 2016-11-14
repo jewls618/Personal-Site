@@ -106,6 +106,11 @@ header {
   background-size:     cover;
 }
 
+.sticky {
+  max-height: 170px;
+  max-width: 120px;
+}
+
 .long-text {
   font-size: 1.2em;
 }
@@ -191,6 +196,7 @@ header {
   display: inline-block;
   margin-bottom: 10px;
   text-align: center;
+
 }
 
 .submenu {
@@ -273,4 +279,31 @@ h3.projects a {
 h6 {
   text-align: center;
   color: #ff0073;
+}
+
+.project-logo {
+  position: relative;
+  max-height: 70px;
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  h6 {
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+  }
+  h3 {
+    padding-top: 20px;
+  }
+  button.menu-icon {
+    margin-top: -75px;
+  }
+  img.logo {
+    padding: 10px;
+  }
+  .learn-more {
+    margin-top: -65px;
+  }
 }
