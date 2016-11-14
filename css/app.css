@@ -307,14 +307,4 @@ a:hover {
   .learn-more {
     margin-top: -65px;
   }
-  header {
-    background-image: url(../assets/images/rose.png);
-    /*background-position: center;*/
-    /*background-size: cover;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    min-height: 300px;
-    padding: 0 0 2em 0;*/
-  }
 }
