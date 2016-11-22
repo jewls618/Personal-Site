@@ -308,3 +308,7 @@ a:hover {
     margin-top: -65px;
   }
 }
+
+.border {
+  border: 2px solid black;
+}
