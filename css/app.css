@@ -52,7 +52,7 @@ header {
   flex-direction: column;
   max-width: 100%;
   min-height: 300px;
-  padding: 0 0 2em 0;
+  padding: 0 0 1.5em 0;
 }
 
 .heading {
@@ -289,6 +289,14 @@ h6 {
   margin: 0 auto;
 }
 
+a:hover {
+  opacity: 0.4;
+}
+
+div.work {
+  padding: 100px 50px;
+}
+
 @media (max-width: 700px) {
   h6 {
     border-bottom: 2px solid black;
@@ -297,13 +305,14 @@ h6 {
   h3 {
     padding-top: 20px;
   }
-  button.menu-icon {
-    margin-top: -75px;
-  }
   img.logo {
     padding: 10px;
   }
   .learn-more {
     margin-top: -65px;
   }
+}
+
+.border {
+  border: 2px solid black;
 }
